@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="387.0" prefWidth="624.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.SignUpController">
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+   <children>
+      <ImageView fitHeight="394.0" fitWidth="725.0" layoutX="-6.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@2.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="user" layoutX="301.0" layoutY="87.0" />
+      <PasswordField fx:id="password" layoutX="301.0" layoutY="158.0" />
+      <PasswordField fx:id="check" layoutX="301.0" layoutY="225.0" />
+      <Button layoutX="37.0" layoutY="348.0" mnemonicParsing="false" onAction="#Back" text="Back" />
+      <Button layoutX="337.0" layoutY="275.0" mnemonicParsing="false" onAction="#Sign" prefHeight="39.0" prefWidth="78.0" style="-fx-background-radius: 6000;" text="Sign Up" />
+      <Text fill="WHITE" layoutX="168.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Imetti Username:" wrappingWidth="90.13672637939453" />
+      <Text fill="WHITE" layoutX="168.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Imetti Password:" wrappingWidth="90.13672637939453" />
+      <Text fill="WHITE" layoutX="168.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Re-Imetti Password:" wrappingWidth="118.13672637939453" />
+      <Label fx:id="label" layoutX="101.0" layoutY="414.0" prefHeight="18.0" prefWidth="363.0" />
+   </children>
+</AnchorPane>
